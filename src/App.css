@@ -1,0 +1,54 @@
+.app-container {
+    transition: background-color 0.5s ease; /* Smooth background transition */
+    color: #333;
+    padding: 20px;
+  }
+  
+  .app-container.light {
+    background-color: #ffffff; /* Light theme background */
+    color: #000; /* Light theme text color */
+  }
+  
+  .app-container.dark {
+    background-color: #000000; /* Dark theme background */
+    color: #fff; /* Dark theme text color */
+  }
+  
+  .btn {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn.light {
+    background-color: #ddd;
+    color: #000;
+  }
+  
+  .btn.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: red;
+    color: white;
+  }
+  .list-group-item{
+    display: flex;
+    justify-content: center;
+  }
+  .heading{
+    display: flex;
+    justify-self: center;
+    color: aqua;
+  }
+  .list-group-item{
+    border: 1px solid;
+    width: 50rem;
+    display: flex;
+    justify-self: center;
+    margin: 2rem;
+  }
